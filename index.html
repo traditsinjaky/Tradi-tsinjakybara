@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRADI'TSINJAKY BARA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- =========================================================================
+     HEADER
+========================================================================== -->
+<header>
+    <h1>GROUPE TRADI'TSINJAKY BARA</h1>
+    <img
+        src="image/groupe.jpeg"
+        alt="Photo du groupe TRADI'TSINJAKY BARA"
+        class="hero-image"
+        id="hero-image"
+        onerror="this.onerror=null; this.src='image/groupe.jpg';"
+    />
+</header>
+
+<!-- =========================================================================
+     NAVIGATION
+========================================================================== -->
+<nav>
+    <a href="#accueil"><span class="nav-ico">🏠</span> Accueil</a>
+    <a href="#about"><span class="nav-ico">👥</span> À propos</a>
+    <a href="#tarifs"><span class="nav-ico">🎟️</span> Tarifs</a>
+    <a href="#t-shirt-mila-aomby"><span class="nav-ico">👕</span> T-shirt MILA AOMBY</a>
+    <a href="#contact"><span class="nav-ico">✉️</span> Contact</a>
+</nav>
+
+<!-- =========================================================================
+     CONTENU PRINCIPAL
+========================================================================== -->
+<main>
+
+    <!-- ====================================================================
+         ACCUEIL
+    ===================================================================== -->
+    <section id="accueil" class="section active">
+        <h2 class="section-heading">Bienvenue sur notre site officiel !</h2>
+        <p class="section-lead">Découvrez notre groupe, nos prestations et commandez vos T-shirts MILA AOMBY.</p>
+
+        <div class="shortcut-grid">
+            <div class="shortcut-card" onclick="navTo('about')">
+                <span class="shortcut-ico">🎭</span>
+                <h3>Notre groupe</h3>
+                <small>Culture BARA · Madagascar</small>
+            </div>
+            <div class="shortcut-card" onclick="navTo('tarifs')">
+                <span class="shortcut-ico">🎪</span>
+                <h3>Nos prestations</h3>
+                <small>Dès 200 000 Ar</small>
+            </div>
+            <div class="shortcut-card" onclick="navTo('t-shirt-mila-aomby')">
+                <span class="shortcut-ico">👕</span>
+                <h3>T-shirts MILA AOMBY</h3>
+                <small>3 modèles · 100% coton</small>
+            </div>
+            <div class="shortcut-card" onclick="navTo('contact')">
+                <span class="shortcut-ico">📞</span>
+                <h3>Contactez-nous</h3>
+                <small>Réponse rapide</small>
+            </div>
+        </div>
+
+        <div class="delivery-banner">
+            <span class="d-ico">🚚</span>
+            <div>
+                <strong>Livraison dans tout Madagascar</strong>
+                <p>Commandez vos T-shirts MILA AOMBY en ligne — nous livrons partout dans l'île.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====================================================================
+         À PROPOS
+    ===================================================================== -->
+    <section id="about" class="section">
+        <h2 class="section-heading">À propos de nous</h2>
+        <p class="section-lead">Notre histoire et notre mission culturelle</p>
+
+        <div class="about-card">
+            <p>
+                TRADI'TSINJAKY BARA est un groupe de danse traditionnelle mettant en valeur la richesse de la
+                <strong>culture BARA</strong>. Nous collaborons avec les artistes, associations, entreprises et
+                toute personne souhaitant promouvoir la culture traditionnelle malgache.
+            </p>
+            <p>
+                Notre groupe est disponible pour toutes vos occasions : mariages, fêtes, événements culturels,
+                cérémonies et spectacles à travers tout Madagascar.
+            </p>
+            <div class="about-tags">
+                <span class="tag">🎭 Danse traditionnelle</span>
+                <span class="tag">🇲🇬 Culture BARA</span>
+                <span class="tag">🎪 Événements</span>
+                <span class="tag">🎬 Clips vidéo</span>
+                <span class="tag">💍 Mariages</span>
+                <span class="tag">🏆 Spectacles</span>
+            </div>
+        </div>
+
+        <div class="about-stats">
+            <div class="stat-box">
+                <span class="stat-ico">🎵</span>
+                <span class="stat-label">Musique live</span>
+                <span class="stat-sub">Instruments traditionnels</span>
+            </div>
+            <div class="stat-box">
+                <span class="stat-ico">👘</span>
+                <span class="stat-label">Costumes authentiques</span>
+                <span class="stat-sub">Tenues traditionnelles</span>
+            </div>
+            <div class="stat-box">
+                <span class="stat-ico">📍</span>
+                <span class="stat-label">Tout Madagascar</span>
+                <span class="stat-sub">Déplacements possibles</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====================================================================
+         T-SHIRT MILA AOMBY
+    ===================================================================== -->
+    <section id="t-shirt-mila-aomby" class="section">
+        <h2 class="section-heading">T-shirt MILA AOMBY</h2>
+        <p class="section-lead">100% coton · Haute qualité · Livraison partout à Madagascar</p>
+
+        <p class="tshirt-description">
+            Nous produisons également les T-shirts <strong>MILA AOMBY</strong>. Ce sont des T-shirts de haute qualité,
+            100% coton. Nous assurons la livraison dans toutes les régions de Madagascar !<br>
+            <span class="highlight-text">✦ Lors de votre commande, vous pouvez choisir toutes les couleurs et toutes les tailles souhaitées.</span>
+        </p>
+
+        <!-- PRIX -->
+        <div class="tshirt-prices">
+            <div class="price-box">
+                <span class="price-label">🛒 Prix unitaire · moins de 20 pièces</span>
+                <span class="price-amount">35 000 Ar</span>
+            </div>
+            <div class="price-box gros">
+                <span class="price-label">📦 Prix de gros · 20 pièces et plus</span>
+                <span class="price-amount">30 000 Ar</span>
+            </div>
+        </div>
+
+        <!-- GALERIE -->
+        <h3 class="gallery-title">Découvrez nos modèles</h3>
+        <div class="tshirt-gallery">
+            <div class="tshirt-photo">
+                <img src="image/tshirt1.jpeg" alt="Premier Modèle"
+                     onerror="this.onerror=null; this.src='image/tshirt1.jpg';">
+                <p>Premier Modèle</p>
+            </div>
+            <div class="tshirt-photo">
+                <img src="image/tshirt2.jpeg" alt="Deuxième Modèle"
+                     onerror="this.onerror=null; this.src='image/tshirt2.jpg';">
+                <p>Deuxième Modèle</p>
+            </div>
+            <div class="tshirt-photo">
+                <img src="image/tshirt3.jpeg" alt="Troisième Modèle"
+                     onerror="this.onerror=null; this.src='image/tshirt3.jpg';">
+                <p>Troisième Modèle</p>
+            </div>
+        </div>
+
+        <!-- FORMULAIRE DE COMMANDE -->
+        <div class="order-box">
+            <h3 class="order-box-title">🛒 Espace Commande Directe</h3>
+            <p class="order-box-sub">Composez votre panier en choisissant vos modèles, couleurs et tailles.</p>
+
+            <!-- Formulaire connecté à FormSubmit (Gratuit et sans PHP) -->
+            <form action="https://formsubmit.co/traditsinjakybara00@gmail.com" method="POST">
+                
+                <!-- Configurations FormSubmit -->
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_subject" value="👕 Nouvelle commande de T-shirts !">
+                <input type="hidden" name="_next" value="https://localhost/tradi-tsinjaky/#t-shirt-mila-aomby">
+
+                <div class="order-container-grid">
+
+                    <!-- GAUCHE : MODÈLES -->
+                    <div class="grid-left-models">
+                        <div class="section-form-title">1. Choix des articles et options 👕</div>
+
+                        <div class="model-tab-header m1-header">🔴 Premier Modèle</div>
+                        <div class="size-qty-row">
+                            <span class="size-badge">Taille S</span>
+                            <input type="text"   name="M1_Taille_S_Couleur" class="color-field" placeholder="🎨 Quelle couleur ?">
+                            <input type="number" name="M1_Taille_S_Quantite" class="qty-field calc-trigger" min="0" value="0">
+                        </div>
+                        <div class="size-qty-row">
+                            <span class="size-badge">Taille M</span>
+                            <input type="text"   name="M1_Taille_M_Couleur" class="color-field" placeholder="🎨 Quelle couleur ?">
+                            <input type="number" name="M1_Taille_M_Quantite" class="qty-field calc-trigger" min="0" value="0">
+                        </div>
+                        <div class="size-qty-row">
+                            <span class="size-badge">Taille L</span>
+                            <input type="text"   name="M1_Taille_L_Couleur" class="color-field" placeholder="🎨 Quelle couleur ?">
+                            <input type="number" name="M1_Taille_L_Quantite" class="qty-field calc-trigger" min="0" value="0">
+                        </div>
+                        <div class="size-qty-row">
+                            <span class="size-badge">Taille XL</span>
+                            <input type="text"   name="M1_Taille_XL_Couleur" class="color-field" placeholder="🎨 Quelle couleur ?">
+                            <input type="number" name="M1_Taille_XL_Quantite" class="qty-field calc-trigger" min="0" value="0">
+                        </div>
+                        <div class="size-qty-row">
+                            <span class="size-badge">Taille XXL</span>
+                            <input type="text"   name="M1_Taille_XXL_Couleur" class="color-field" placeholder="🎨 Quelle couleur ?">
+                            <input type="number" name="M1_Taille_XXL_Quantite" class="qty-field calc-trigger" min="0" value="0">
+                        </div>
+
+                        <div class="model-tab-header m2-header">🔵 Deuxième Modèle</div>
+                        <div class="size-qty-row">
+                            <span class="size-badge">Taille S</span>
+                            <input type="text"   name="M2_Taille_S_Couleur" class="color-field" placeholder="🎨 Quelle couleur ?">
+                            <input type="number" name="M2_Taille_S_Quantite" class="qty-field calc-trigger" min="0" value="0">
+                        </div>
+                        <div class="size-qty-row">
+                            <span class="size-badge">Taille M</span>
+                            <input type="text"   name="M2_Taille_M_Couleur" class="color-field" placeholder="🎨 Quelle couleur ?">
+                            <input type="number" name="M2_Taille_M_Quantite" class="qty-field calc-trigger" min="0" value="0">
+                        </div>
+                        <div class="size-qty-row">
+                            <span class="size-badge">Taille L</span>
+                            <input type="text"   name="M2_Taille_L_Couleur" class="color-field" placeholder="🎨 Quelle couleur ?">
+                            <input type="number" name="M2_Taille_L_Quantite" class="qty-field calc-trigger" min="0" value="0">
+                        </div>
+                        <div class="size-qty-row">
+                            <span class="size-badge">Taille XL</span>
+                            <input type="text"   name="M2_Taille_XL_Couleur" class="color-field" placeholder="🎨 Quelle couleur ?">
+                            <input type="number" name="M2_Taille_XL_Quantite" class="qty-field calc-trigger" min="0" value="0">
+                        </div>
+                        <div class="size-qty-row">
+                            <span class="size-badge">Taille XXL</span>
+                            <input type="text"   name="M2_Taille_XXL_Couleur" class="color-field" placeholder="🎨 Quelle couleur ?">
+                            <input type="number" name="M2_Taille_XXL_Quantite" class="qty-field calc-trigger" min="0" value="0">
+                        </div>
+
+                        <div class="model-tab-header m3-header">🟢 Troisième Modèle</div>
+                        <div class="size-qty-row">
+                            <span class="size-badge">Taille S</span>
+                            <input type="text"   name="M3_Taille_S_Couleur" class="color-field" placeholder="🎨 Quelle couleur ?">
+                            <input type="number" name="M3_Taille_S_Quantite" class="qty-field calc-trigger" min="0" value="0">
+                        </div>
+                        <div class="size-qty-row">
+                            <span class="size-badge">Taille M</span>
+                            <input type="text"   name="M3_Taille_M_Couleur" class="color-field" placeholder="🎨 Quelle couleur ?">
+                            <input type="number" name="M3_Taille_M_Quantite" class="qty-field calc-trigger" min="0" value="0">
+                        </div>
+                        <div class="size-qty-row">
+                            <span class="size-badge">Taille L</span>
+                            <input type="text"   name="M3_Taille_L_Couleur" class="color-field" placeholder="🎨 Quelle couleur ?">
+                            <input type="number" name="M3_Taille_L_Quantite" class="qty-field calc-trigger" min="0" value="0">
+                        </div>
+                        <div class="size-qty-row">
+                            <span class="size-badge">Taille XL</span>
+                            <input type="text"   name="M3_Taille_XL_Couleur" class="color-field" placeholder="🎨 Quelle couleur ?">
+                            <input type="number" name="M3_Taille_XL_Quantite" class="qty-field calc-trigger" min="0" value="0">
+                        </div>
+                        <div class="size-qty-row">
+                            <span class="size-badge">Taille XXL</span>
+                            <input type="text"   name="M3_Taille_XXL_Couleur" class="color-field" placeholder="🎨 Quelle couleur ?">
+                            <input type="number" name="M3_Taille_XXL_Quantite" class="qty-field calc-trigger" min="0" value="0">
+                        </div>
+                    </div>
+
+                    <!-- DROITE : LIVRAISON & RÉCAP -->
+                    <div class="grid-right-client">
+                        <div>
+                            <div class="section-form-title">2. Informations de Livraison 📦</div>
+
+                            <div class="input-with-icon">
+                                <span class="input-icon">👤</span>
+                                <input type="text" name="Nom_Client" class="modern-input" placeholder="Votre Nom complet" required>
+                            </div>
+                            <div class="input-with-icon">
+                                <span class="input-icon">📞</span>
+                                <input type="tel"  name="Telephone_Client" class="modern-input" placeholder="Numéro de téléphone" required>
+                            </div>
+                            <div class="input-with-icon">
+                                <span class="input-icon">📍</span>
+                                <input type="text" name="Adresse_Livraison" class="modern-input" placeholder="Adresse complète de livraison" required>
+                            </div>
+
+                            <div class="summary-box">
+                                <p>📦 Total articles : <span id="total-qty">0</span> pièce(s)</p>
+                                <p>💰 Tarif appliqué : <span id="applied-price">35 000</span> Ar / u</p>
+                                <hr>
+                                <span class="summary-net-label">Net à payer</span>
+                                <span class="summary-net-amount" id="total-price-display">0 Ar</span>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn-modern-submit">
+                            🚀 Confirmer et Envoyer la commande
+                        </button>
+                    </div>
+
+                </div><!-- /order-container-grid -->
+            </form>
+        </div><!-- /order-box -->
+    </section>
+
+    <!-- ====================================================================
+         TARIFS
+    ===================================================================== -->
+    <section id="tarifs" class="section">
+        <h2 class="section-heading">Tarifs de collaboration</h2>
+        <p class="section-lead">Disponibles pour tout type d'événement — contactez-nous pour un devis personnalisé.</p>
+
+        <div class="tarif-grid">
+            <div class="tarif-card">
+                <span class="tarif-ico">🎪</span>
+                <p class="tarif-name">Événement simple</p>
+                <p class="tarif-price">À partir de<br>300 000 Ar</p>
+            </div>
+            <div class="tarif-card">
+                <span class="tarif-ico">💍</span>
+                <p class="tarif-name">Mariage</p>
+                <p class="tarif-price">À partir de<br>200 000 Ar</p>
+            </div>
+            <div class="tarif-card">
+                <span class="tarif-ico">🎭</span>
+                <p class="tarif-name">Spectacle culturel</p>
+                <p class="tarif-price">À partir de<br>600 000 Ar</p>
+            </div>
+            <div class="tarif-card">
+                <span class="tarif-ico">🎬</span>
+                <p class="tarif-name">Extrait vidéo</p>
+                <p class="tarif-price">À partir de<br>500 000 Ar</p>
+            </div>
+            <div class="tarif-card">
+                <span class="tarif-ico">🎵</span>
+                <p class="tarif-name">Clips musicaux</p>
+                <p class="tarif-price">À partir de<br>500 000 Ar</p>
+            </div>
+        </div>
+
+        <div class="devis-banner">
+            <span class="d-ico">💬</span>
+            <div class="devis-text">
+                <strong>Devis personnalisé</strong>
+                <p>Pour tout événement spécial ou grande cérémonie, contactez-nous pour un tarif adapté à vos besoins.</p>
+            </div>
+            <button class="btn-devis" onclick="navTo('contact')">Nous contacter →</button>
+        </div>
+    </section>
+
+    <!-- ====================================================================
+         CONTACT
+    ===================================================================== -->
+    <section id="contact" class="section">
+        <h2 class="section-heading">Contactez-nous</h2>
+        <p class="contact-subtitle">Une question ou une demande de collaboration ? Envoyez-nous un message !</p>
+
+        <div class="contact-container">
+            <!-- Formulaire de contact connecté à FormSubmit -->
+            <form class="contact-form" action="https://formsubmit.co/traditsinjakybara00@gmail.com" method="POST">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_subject" value="✉️ Nouveau message depuis le Site Web !">
+                <input type="hidden" name="_next" value="https://localhost/tradi-tsinjaky/#contact">
+
+                <div class="form-group">
+                    <label for="contact-name">Nom complet</label>
+                    <input type="text"  id="contact-name"    name="Nom_Contact"     placeholder="Votre nom" required>
+                </div>
+                <div class="form-group">
+                    <label for="contact-email">Adresse Email</label>
+                    <input type="email" id="contact-email"   name="Email_Contact"   placeholder="Votre email" required>
+                </div>
+                <div class="form-group">
+                    <label for="contact-message">Votre Message</label>
+                    <textarea id="contact-message" name="Message_Contact" rows="5" placeholder="Écrivez votre message ici..." required></textarea>
+                </div>
+                <button type="submit" class="btn-submit">✉️ Envoyer le message par Email</button>
+            </form>
+
+            <div class="contact-info">
+                <h3>Nos Coordonnées</h3>
+                <div class="info-item">
+                    <span class="info-icon">📞</span>
+                    <div>
+                        <strong>Téléphone</strong>
+                        <p><a href="tel:0382447283">038 24 47 283</a></p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <span class="info-icon">💬</span>
+                    <div>
+                        <strong>WhatsApp</strong>
+                        <p><a href="https://wa.me/261389101322" target="_blank">038 91 01 322</a></p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <span class="info-icon">✉️</span>
+                    <div>
+                        <strong>Email</strong>
+                        <p><a href="mailto:traditsinjakybara00@gmail.com">traditsinjakybara00@gmail.com</a></p>
+                    </div>
+                </div>
+                <div class="dispo-badge">
+                    自由&nbsp; Disponible · Réponse en moins de 24h
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<!-- =========================================================================
+     FOOTER
+========================================================================== -->
+<footer>
+    <p>© 2026 TRADI'TSINJAKY BARA. Tous droits réservés.</p>
+</footer>
+
+<!-- =========================================================================
+     SCRIPTS
+========================================================================== -->
+<script>
+// ── CALCUL DYNAMIQUE ───────────────────────────────────────────────────────
+const qtyInputs      = document.querySelectorAll('.calc-trigger');
+const totalQtyEl     = document.getElementById('total-qty');
+const appliedPriceEl = document.getElementById('applied-price');
+const totalPriceEl   = document.getElementById('total-price-display');
+
+function calculerCommande() {
+    let total = 0;
+    qtyInputs.forEach(function(inp) {
+        let v = parseInt(inp.value) || 0;
+        if (v < 0) { v = 0; inp.value = 0; }
+        total += v;
+    });
+    const tarif = total >= 20 ? 30000 : 35000;
+    totalQtyEl.textContent     = total;
+    appliedPriceEl.textContent = tarif.toLocaleString('fr-FR');
+    totalPriceEl.textContent   = (total * tarif).toLocaleString('fr-FR') + ' Ar';
+}
+
+qtyInputs.forEach(function(inp) {
+    inp.addEventListener('input',  calculerCommande);
+    inp.addEventListener('change', calculerCommande);
+});
+
+// ── NAVIGATION PAR ONGLETS ─────────────────────────────────────────────────
+const allSections = document.querySelectorAll('.section');
+const allNavLinks  = document.querySelectorAll('nav a');
+const heroImage    = document.getElementById('hero-image');
+
+function navTo(id) {
+    allSections.forEach(function(s) {
+        s.style.display = 'none';
+        s.classList.remove('active');
+    });
+    allNavLinks.forEach(function(a) { a.classList.remove('active-link'); });
+
+    const target = document.getElementById(id);
+    if (target) {
+        target.style.display = 'block';
+        target.classList.remove('active');
+        void target.offsetWidth; 
+        target.classList.add('active');
+    }
+
+    const activeLink = document.querySelector('nav a[href="#' + id + '"]');
+    if (activeLink) activeLink.classList.add('active-link');
+
+    heroImage.style.display = (id === 'accueil') ? 'block' : 'none';
+
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    history.pushState(null, '', '#' + id);
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+    allSections.forEach(function(s) {
+        s.style.display = 'none';
+        s.classList.remove('active');
+    });
+
+    const hash = window.location.hash ? window.location.hash.substring(1) : 'accueil';
+    navTo(hash);
+
+    allNavLinks.forEach(function(link) {
+        link.addEventListener('click', function(e) {
+            e.preventDefault();
+            navTo(this.getAttribute('href').substring(1));
+        });
+    });
+});
+</script>
+
+</body>
+</html>
